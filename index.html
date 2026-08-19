@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fardexa | فناوری و توسعه نرم‌افزار پریمیوم</title>
+<meta name="description" content="Fardexa راهکارهای دیجیتال حرفه‌ای می‌سازد؛ از اپلیکیشن و Web App تا نرم‌افزارهای اختصاصی و ربات‌های فروشگاهی تلگرام." />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="aurora-bg" aria-hidden="true"></div>
+
+<!-- ============ Header ============ -->
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand">Fardexa</a>
+    <nav class="nav-links" aria-label="ناوبری اصلی">
+      <a href="index.html" class="active">خانه</a>
+      <a href="products.html">محصولات</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a href="contact.html" class="btn btn-primary nav-cta btn-sm">درخواست پروژه</a>
+      <button class="nav-toggle" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="منوی موبایل">
+  <a href="index.html" class="active">خانه</a>
+  <a href="products.html">محصولات</a>
+  <a href="about.html">درباره ما</a>
+  <a href="contact.html">تماس با ما</a>
+  <a href="contact.html" class="btn btn-primary btn-block">درخواست پروژه اختصاصی</a>
+</nav>
+
+<main>
+  <!-- ============ Hero ============ -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-copy reveal">
+        <h1 class="hero-title">
+          تکنولوژی را برای <span class="text-gradient">آینده کسب‌وکارت</span> می‌سازیم
+        </h1>
+        <p class="muted" style="font-size:var(--fs-body-lg); max-width:44em;">
+          از اپلیکیشن و Web App تا نرم‌افزارهای اختصاصی و ربات‌های فروشگاهی تلگرام؛ Fardexa راهکارهای دیجیتال حرفه‌ای برای کسب‌وکارها و سازمان‌ها توسعه می‌دهد.
+        </p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn btn-primary">مشاهده محصولات</a>
+          <a href="contact.html" class="btn btn-ghost">درخواست پروژه اختصاصی</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orb-frame">
+          <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="شبکه‌ای از گره‌های نورانی به هم پیوسته، نمادی از اکوسیستم دیجیتال">
+            <defs>
+              <radialGradient id="hIdxGlow" cx="50%" cy="50%" r="60%">
+                <stop offset="0%" stop-color="#b6c4ff" stop-opacity="0.35"/>
+                <stop offset="100%" stop-color="#b6c4ff" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="hIdxLine" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#b6c4ff"/>
+                <stop offset="100%" stop-color="#e1b6ff"/>
+              </linearGradient>
+              <filter id="hIdxBlur"><feGaussianBlur stdDeviation="10"/></filter>
+            </defs>
+            <circle cx="240" cy="240" r="220" fill="url(#hIdxGlow)"/>
+            <g class="spin-slow" stroke="url(#hIdxLine)" stroke-width="1.4" fill="none" opacity="0.55">
+              <circle cx="240" cy="240" r="160"/>
+              <circle cx="240" cy="240" r="110"/>
+            </g>
+            <g stroke="#8e90a0" stroke-opacity="0.35" stroke-width="1">
+              <line x1="240" y1="240" x2="120" y2="150"/>
+              <line x1="240" y1="240" x2="360" y2="140"/>
+              <line x1="240" y1="240" x2="370" y2="300"/>
+              <line x1="240" y1="240" x2="110" y2="320"/>
+              <line x1="240" y1="240" x2="240" y2="90"/>
+            </g>
+            <circle class="float-med" cx="240" cy="240" r="42" fill="#191f31" stroke="#b6c4ff" stroke-width="1.5"/>
+            <circle cx="240" cy="240" r="14" fill="#b6c4ff" filter="url(#hIdxBlur)"/>
+            <g class="float-slow">
+              <circle cx="120" cy="150" r="20" fill="#151b2d" stroke="#a0c9ff" stroke-width="1.2"/>
+              <circle cx="120" cy="150" r="6" fill="#a0c9ff"/>
+            </g>
+            <g class="float-med">
+              <circle cx="360" cy="140" r="26" fill="#151b2d" stroke="#e1b6ff" stroke-width="1.2"/>
+              <circle cx="360" cy="140" r="7" fill="#e1b6ff"/>
+            </g>
+            <g class="float-slow">
+              <circle cx="370" cy="300" r="18" fill="#151b2d" stroke="#b6c4ff" stroke-width="1.2"/>
+              <circle cx="370" cy="300" r="5" fill="#b6c4ff"/>
+            </g>
+            <g class="float-med">
+              <circle cx="110" cy="320" r="22" fill="#151b2d" stroke="#2794f4" stroke-width="1.2"/>
+              <circle cx="110" cy="320" r="6" fill="#2794f4"/>
+            </g>
+            <g class="float-slow">
+              <circle cx="240" cy="90" r="14" fill="#151b2d" stroke="#e1b6ff" stroke-width="1.2"/>
+              <circle cx="240" cy="90" r="4" fill="#e1b6ff"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Technology statement ============ -->
+  <section class="section container text-center reveal">
+    <h2 class="section-title" style="max-width:56rem; margin-inline:auto;">
+      راهکارهای دیجیتال برای ایده‌هایی که قرار است <span class="text-gradient">رشد کنند.</span>
+    </h2>
+  </section>
+
+  <!-- ============ Products bento ============ -->
+  <section class="section container">
+    <div class="section-head align-start reveal">
+      <h2 class="section-title">محصولات نرم‌افزاری Fardexa</h2>
+      <p class="section-subtitle mt-0">راهکارهای آماده و قابل سفارشی‌سازی</p>
+    </div>
+    <div class="bento">
+      <!-- Featured product -->
+      <div class="span-8 glass card reveal" style="min-height:320px;">
+        <div style="display:flex; flex-direction:column; justify-content:space-between; height:100%; gap:24px;">
+          <div>
+            <span class="chip">Telegram Bot</span>
+            <h3 style="font-family:var(--font-head); font-size:1.6rem; font-weight:700; margin-top:16px;">فروشگاه‌ساز هوشمند تلگرام</h3>
+            <p class="muted" style="margin-top:12px; max-width:30em;">نسل جدید فروش در تلگرام با قابلیت‌های پیشرفته مدیریت موجودی، درگاه پرداخت و پنل مدیریت جامع.</p>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+            <span style="font-family:var(--font-head); font-size:1.4rem; font-weight:700; color:var(--c-primary);">شروع از ۵M تومان</span>
+            <a href="https://t.me/FardexaBot" target="_blank" rel="noopener" class="btn btn-surface btn-sm">
+              خرید از ربات <span class="material-symbols-outlined" style="font-size:18px;">arrow_back</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="span-4 glass card reveal">
+        <span class="chip">Web App</span>
+        <h3 style="font-family:var(--font-head); font-size:1.35rem; font-weight:700; margin-top:16px;">سیستم مدیریت مشتریان (CRM)</h3>
+        <p class="muted" style="margin-top:12px;">مدیریت یکپارچه ارتباطات، فروش و پشتیبانی.</p>
+        <a href="products.html" class="btn btn-ghost btn-block" style="margin-top:24px;">مشاهده جزئیات</a>
+      </div>
+      <!-- Product 3 -->
+      <div class="span-4 glass card reveal">
+        <span class="chip">App</span>
+        <h3 style="font-family:var(--font-head); font-size:1.35rem; font-weight:700; margin-top:16px;">اپلیکیشن فروشگاهی اختصاصی</h3>
+        <p class="muted" style="margin-top:12px;">Native iOS &amp; Android با عملکرد بی‌نظیر.</p>
+        <a href="products.html" class="btn btn-ghost btn-block" style="margin-top:24px;">مشاهده جزئیات</a>
+      </div>
+      <!-- Product 4 -->
+      <div class="span-8 glass card reveal" style="display:flex; flex-wrap:wrap; align-items:center; gap:32px;">
+        <div style="flex:1; min-width:240px;">
+          <span class="chip">Enterprise</span>
+          <h3 style="font-family:var(--font-head); font-size:1.35rem; font-weight:700; margin-top:16px;">نرم‌افزار جامع مالی و حسابداری</h3>
+          <p class="muted" style="margin-top:12px;">دقت مهندسی برای مدیریت مالی سازمان‌های بزرگ. یکپارچه با سیستم‌های بانکی.</p>
+          <a href="products.html" class="btn btn-text" style="margin-top:20px;">
+            اطلاعات بیشتر <span class="material-symbols-outlined" style="font-size:18px;">chevron_left</span>
+          </a>
+        </div>
+        <div style="flex:1; min-width:220px; height:180px; border-radius:var(--r-lg); overflow:hidden; background:rgba(0,0,0,.2);">
+          <svg viewBox="0 0 300 180" width="100%" height="100%" role="img" aria-label="نمودار داده مالی">
+            <defs>
+              <linearGradient id="hIdxChart" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#b6c4ff" stop-opacity="0.5"/>
+                <stop offset="100%" stop-color="#b6c4ff" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <polyline points="10,140 60,120 100,130 140,80 180,95 220,50 260,60 290,30" fill="none" stroke="#e1b6ff" stroke-width="2.5"/>
+            <polygon points="10,140 60,120 100,130 140,80 180,95 220,50 260,60 290,30 290,170 10,170" fill="url(#hIdxChart)"/>
+            <g fill="#b6c4ff">
+              <circle cx="140" cy="80" r="3.5"/>
+              <circle cx="220" cy="50" r="3.5"/>
+              <circle cx="290" cy="30" r="3.5"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Stats ============ -->
+  <section class="section container">
+    <div class="stats-grid">
+      <div class="stat-card glass card reveal">
+        <div class="stat-number">+۱۲۰</div>
+        <div class="stat-label">پروژه موفق تحویل‌شده</div>
+      </div>
+      <div class="stat-card glass card reveal">
+        <div class="stat-number">+۴۰</div>
+        <div class="stat-label">سازمان و کسب‌وکار همکار</div>
+      </div>
+      <div class="stat-card glass card reveal">
+        <div class="stat-number">٪۹۹</div>
+        <div class="stat-label">دقت مهندسی و پایداری</div>
+      </div>
+      <div class="stat-card glass card reveal">
+        <div class="stat-number">۲۴/۷</div>
+        <div class="stat-label">پشتیبانی فنی اختصاصی</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Final CTA ============ -->
+  <section class="container section-lg">
+    <div class="cta-band glass reveal">
+      <h2>ایده‌ای برای <span class="text-gradient">ساختن</span> داری؟</h2>
+      <p>تیم مهندسی Fardexa آماده است تا پیچیده‌ترین چالش‌های فنی شما را به راهکارهای دیجیتال زیبا و کارآمد تبدیل کند.</p>
+      <a href="contact.html" class="btn btn-primary" style="padding:18px 42px; font-size:1.05rem;">شروع پروژه جدید</a>
+    </div>
+  </section>
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand reveal">
+        <div class="brand">Fardexa</div>
+        <p>آینده تکنولوژی در دستان شما؛ طراحی و توسعه محصولات دیجیتال پریمیوم برای کسب‌وکارها و سازمان‌ها.</p>
+        <div class="social-row">
+          <a class="social-btn" href="https://t.me/FardexaBot" target="_blank" rel="noopener" aria-label="تلگرام Fardexa"><span class="material-symbols-outlined" style="font-size:20px">send</span></a>
+          <a class="social-btn" href="#" aria-label="اینستاگرام Fardexa"><span class="material-symbols-outlined" style="font-size:20px">photo_camera</span></a>
+          <a class="social-btn" href="#" aria-label="لینکدین Fardexa"><span class="material-symbols-outlined" style="font-size:20px">work</span></a>
+        </div>
+      </div>
+      <div class="footer-links reveal">
+        <div class="footer-col">
+          <a href="index.html">خانه</a>
+          <a href="products.html">محصولات</a>
+        </div>
+        <div class="footer-col">
+          <a href="about.html">درباره ما</a>
+          <a href="contact.html">تماس با ما</a>
+        </div>
+        <div class="footer-col">
+          <a href="contact.html">حریم خصوصی</a>
+          <a href="contact.html">قوانین و مقررات</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span class="js-year"></span> Fardexa. تمامی حقوق برای مهندسی دقیق محفوظ است.</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

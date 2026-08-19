@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>تماس با ما | Fardexa</title>
+<meta name="description" content="با تیم Fardexa در ارتباط باشید؛ فرم تماس، اطلاعات دفتر مرکزی، شبکه‌های اجتماعی و پاسخ سوالات متداول." />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="aurora-bg" aria-hidden="true"></div>
+
+<!-- ============ Header ============ -->
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand">Fardexa</a>
+    <nav class="nav-links" aria-label="ناوبری اصلی">
+      <a href="index.html">خانه</a>
+      <a href="products.html">محصولات</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html" class="active">تماس با ما</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a href="https://t.me/FardexaBot" target="_blank" rel="noopener" class="btn btn-primary nav-cta btn-sm">چت در تلگرام</a>
+      <button class="nav-toggle" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="منوی موبایل">
+  <a href="index.html">خانه</a>
+  <a href="products.html">محصولات</a>
+  <a href="about.html">درباره ما</a>
+  <a href="contact.html" class="active">تماس با ما</a>
+  <a href="https://t.me/FardexaBot" target="_blank" rel="noopener" class="btn btn-primary btn-block">چت در تلگرام</a>
+</nav>
+
+<main class="container" style="padding-top:calc(96px + var(--section-gap) * .4);">
+  <!-- ============ Hero ============ -->
+  <section class="text-center reveal" style="max-width:44rem; margin-inline:auto; margin-bottom:var(--gutter);">
+    <h1 class="hero-title" style="font-size:var(--fs-headline-xl); color:var(--c-primary);">تماس با ما</h1>
+    <p class="muted" style="font-size:var(--fs-body-lg); margin-top:16px;">
+      ما اینجا هستیم تا به سوالات شما پاسخ دهیم و در مسیر موفقیت فناوری شما همراهتان باشیم. با ما در ارتباط باشید.
+    </p>
+  </section>
+
+  <!-- ============ Form + info ============ -->
+  <section class="form-grid section">
+    <!-- Contact form -->
+    <div class="form-panel glass card reveal">
+      <form class="js-contact-form" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="name">نام و نام خانوادگی</label>
+            <input type="text" id="name" name="name" placeholder="نام شما" required />
+          </div>
+          <div class="field">
+            <label for="email">ایمیل</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" dir="ltr" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="phone">شماره تماس</label>
+          <input type="tel" id="phone" name="phone" placeholder="09123456789" dir="ltr" />
+        </div>
+        <div class="field">
+          <label for="subject">موضوع پیام</label>
+          <input type="text" id="subject" name="subject" placeholder="موضوع" />
+        </div>
+        <div class="field">
+          <label for="message">پیام شما</label>
+          <textarea id="message" name="message" rows="5" placeholder="متن پیام خود را اینجا بنویسید..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block glow-btn" style="padding:16px;">ارسال پیام</button>
+        <p class="form-note">با ارسال فرم، کلاینت ایمیل شما باز می‌شود. برای پاسخ سریع‌تر می‌توانید مستقیماً در تلگرام با ما گفتگو کنید.</p>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+
+    <!-- Contact info -->
+    <div class="info-panel glass card reveal">
+      <h2 style="font-family:var(--font-head); font-size:1.4rem; margin-bottom:32px;">اطلاعات تماس</h2>
+      <div style="display:flex; flex-direction:column; gap:32px;">
+        <div class="info-item">
+          <div class="info-icon"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">call</span></div>
+          <div>
+            <h3>شماره تماس</h3>
+            <p dir="ltr">+98 21 1234 5678
+              <button type="button" class="copy-btn" data-copy="+982112345678">کپی</button>
+            </p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">mail</span></div>
+          <div>
+            <h3>ایمیل سازمانی</h3>
+            <p dir="ltr">info@fardexa.com
+              <button type="button" class="copy-btn" data-copy="info@fardexa.com">کپی</button>
+            </p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">location_on</span></div>
+          <div>
+            <h3>آدرس دفتر مرکزی</h3>
+            <p>تهران، خیابان ولیعصر، بالاتر از میدان ونک، برج فناوری، طبقه ۱۵، واحد ۴۵</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">send</span></div>
+          <div>
+            <h3>سفارش سریع در تلگرام</h3>
+            <p><a href="https://t.me/FardexaBot" target="_blank" rel="noopener" style="color:var(--c-telegram);">t.me/FardexaBot</a></p>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:40px; padding-top:32px; border-top:1px solid rgba(255,255,255,.1);">
+        <h3 style="font-family:var(--font-mono); font-size:.8rem; color:var(--c-secondary); margin-bottom:16px;">شبکه‌های اجتماعی</h3>
+        <div class="social-row">
+          <a class="social-btn" href="https://t.me/FardexaBot" target="_blank" rel="noopener" aria-label="تلگرام"><span class="material-symbols-outlined" style="font-size:18px;">send</span></a>
+          <a class="social-btn" href="#" aria-label="اینستاگرام"><span class="material-symbols-outlined" style="font-size:18px;">photo_camera</span></a>
+          <a class="social-btn" href="#" aria-label="لینکدین"><span class="material-symbols-outlined" style="font-size:18px;">work</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">FAQ</span>
+      <h2 class="section-title">سوالات متداول</h2>
+      <p class="section-subtitle mt-0" style="margin-inline:auto;">پاسخ به پرتکرارترین پرسش‌های شما درباره محصولات، خدمات و نحوه همکاری با Fardexa.</p>
+    </div>
+    <div class="faq-grid">
+      <!-- Category: Purchase -->
+      <div class="faq-category glass card reveal" style="padding:32px;">
+        <div class="faq-category-head">
+          <span class="material-symbols-outlined" style="color:var(--c-primary); font-variation-settings:'FILL' 1;">shopping_cart</span>
+          <h3>خرید و پرداخت</h3>
+        </div>
+        <details class="faq-item">
+          <summary>روند ثبت سفارش چگونه است؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">شما می‌توانید با انتخاب محصول موردنظر و افزودن آن به سبد خرید، مراحل پرداخت را طی کرده و سفارش خود را نهایی کنید. پس از پرداخت، دسترسی شما بلافاصله فعال خواهد شد.</div>
+        </details>
+        <details class="faq-item">
+          <summary>چه روش‌های پرداختی پشتیبانی می‌شود؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">ما از تمامی کارت‌های عضو شتاب، درگاه‌های پرداخت اینترنتی معتبر و همچنین پرداخت از طریق کیف پول دیجیتال پشتیبانی می‌کنیم.</div>
+        </details>
+      </div>
+
+      <!-- Category: Products -->
+      <div class="faq-category glass card reveal" style="padding:32px;">
+        <div class="faq-category-head">
+          <span class="material-symbols-outlined" style="color:var(--c-secondary); font-variation-settings:'FILL' 1;">apps</span>
+          <h3>محصولات و سرویس‌ها</h3>
+        </div>
+        <details class="faq-item">
+          <summary>آیا محصولات دارای لایسنس دائمی هستند؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">بسته به نوع محصول، برخی دارای لایسنس دائمی و برخی دیگر به‌صورت اشتراک سالیانه یا ماهیانه ارائه می‌شوند. جزئیات دقیق در صفحه هر محصول درج شده است.</div>
+        </details>
+        <details class="faq-item">
+          <summary>آیا آپدیت‌های بعدی رایگان است؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">برای محصولات با لایسنس دائمی، آپدیت‌های جزئی رایگان است. برای سرویس‌های اشتراکی، تمامی آپدیت‌ها در طول دوره اشتراک رایگان است.</div>
+        </details>
+      </div>
+
+      <!-- Category: Support -->
+      <div class="faq-category glass card reveal" style="padding:32px;">
+        <div class="faq-category-head">
+          <span class="material-symbols-outlined" style="color:var(--c-tertiary); font-variation-settings:'FILL' 1;">support_agent</span>
+          <h3>پشتیبانی</h3>
+        </div>
+        <details class="faq-item">
+          <summary>ساعات پاسخگویی پشتیبانی چگونه است؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">تیم پشتیبانی ما در روزهای کاری از ساعت ۹ صبح تا ۵ عصر آماده پاسخگویی به تیکت‌ها و تماس‌های شماست. تیکت‌های خارج از این ساعات در اولین فرصت بررسی می‌شوند.</div>
+        </details>
+        <details class="faq-item">
+          <summary>چگونه می‌توانم مشکل فنی خود را گزارش دهم؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">می‌توانید مشکل فنی خود را از طریق فرم تماس یا ربات تلگرام با جزئیات کامل ثبت کنید تا کارشناسان ما در سریع‌ترین زمان ممکن رسیدگی کنند.</div>
+        </details>
+      </div>
+
+      <!-- Category: Custom projects -->
+      <div class="faq-category glass card reveal" style="padding:32px;">
+        <div class="faq-category-head">
+          <span class="material-symbols-outlined" style="color:var(--c-secondary-container); font-variation-settings:'FILL' 1;">architecture</span>
+          <h3>پروژه‌های اختصاصی</h3>
+        </div>
+        <details class="faq-item">
+          <summary>آیا امکان سفارش نرم‌افزار اختصاصی وجود دارد؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">بله، تیم مهندسی ما آماده طراحی و توسعه نرم‌افزارهای اختصاصی متناسب با نیازهای خاص کسب‌وکار شماست. برای شروع، فرم تماس را تکمیل کنید.</div>
+        </details>
+        <details class="faq-item">
+          <summary>روند برآورد هزینه و زمان پروژه چگونه است؟ <span class="material-symbols-outlined">expand_more</span></summary>
+          <div class="faq-answer">پس از جلسه مشاوره اولیه و تحلیل نیازمندی‌ها، یک پروپوزال جامع شامل برآورد هزینه، زمان‌بندی فازها و معماری پیشنهادی برای شما ارسال خواهد شد.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand reveal">
+        <div class="brand">Fardexa</div>
+        <p>آینده تکنولوژی در دستان شما؛ طراحی و توسعه محصولات دیجیتال پریمیوم برای کسب‌وکارها و سازمان‌ها.</p>
+        <div class="social-row">
+          <a class="social-btn" href="https://t.me/FardexaBot" target="_blank" rel="noopener" aria-label="تلگرام Fardexa"><span class="material-symbols-outlined" style="font-size:20px">send</span></a>
+          <a class="social-btn" href="#" aria-label="اینستاگرام Fardexa"><span class="material-symbols-outlined" style="font-size:20px">photo_camera</span></a>
+          <a class="social-btn" href="#" aria-label="لینکدین Fardexa"><span class="material-symbols-outlined" style="font-size:20px">work</span></a>
+        </div>
+      </div>
+      <div class="footer-links reveal">
+        <div class="footer-col">
+          <a href="index.html">خانه</a>
+          <a href="products.html">محصولات</a>
+        </div>
+        <div class="footer-col">
+          <a href="about.html">درباره ما</a>
+          <a href="contact.html">تماس با ما</a>
+        </div>
+        <div class="footer-col">
+          <a href="contact.html">حریم خصوصی</a>
+          <a href="contact.html">قوانین و مقررات</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span class="js-year"></span> Fardexa. تمامی حقوق محفوظ است.</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
